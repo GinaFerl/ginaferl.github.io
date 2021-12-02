@@ -1,0 +1,131 @@
+body {
+  min-height: 3000px;
+  min-width: 400px;
+}
+
+section {
+  padding-top: 3rem;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #00abe1;
+  color: #ffffff;
+}
+
+.about-tag {
+  word-break: break-all;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.about-tag ul li {
+  margin: 0px 5px;
+  padding: 4px 0px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.about-tag ul li span {
+  border: 1px solid #47a6ff;
+  border-radius: 4px;
+  padding: 4px 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+#experience {
+  background-color: #00abe1;
+}
+
+.education-details .education-item {
+  box-shadow: 0px 10px 20px 4px #00000015;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+  padding: 26px 30px;
+  border-radius: 5px;
+}
+
+.education-details .education-item h4 a {
+  font-style: italic;
+  margin-left: 4px;
+  color: #47a6ff;
+}
+
+a {
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+.work-details .work-item {
+  box-shadow: 0px 10px 20px 4px #00000015;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+  padding: 26px 30px;
+  border-radius: 5px;
+}
+
+.work-details .work-item h4 a {
+  font-style: italic;
+  margin-left: 4px;
+  color: #47a6ff;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.portofolio-modal-inner {
+  max-height: 500px;
+  overflow-y: scroll;
+  margin-right: 20px;
+}
+
+#iklan {
+  background-color: #00abe1;
+}
+
+footer {
+  padding-top: 3rem;
+}
+
+.footer-address {
+  margin-bottom: 60px;
+}
+
+.footer-address .footer-item {
+  padding: 10px 30px;
+  text-align: center;
+  margin-bottom: 15px;
+  box-shadow: 0px 10px 20px 4px #00000015;
+}
+
+.social-media {
+  position: relative;
+  display: inline-block;
+}
+
+.social-media li {
+  list-style: none;
+  text-align: center;
+  margin: 0px 8px;
+  position: relative;
+  display: inline-block;
+}
+
+.social-media li a {
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
