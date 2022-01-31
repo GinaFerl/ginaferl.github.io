@@ -18,13 +18,13 @@
   </head>
   <body data-bs-spy="scroll" data-bs-target="#navbar-example">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #00458b; padding-top: 1rem; padding-bottom: 1rem">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #00458b; padding-top: 1rem; padding-bottom: 1rem">
       <div class="container">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav ms-auto me-auto">
             <li class="nav-item">
               <a class="nav-link active fs-5 mx-auto my-auto" aria-current="page" href="#home">Home</a>
             </li>
@@ -47,12 +47,57 @@
     <!-- Akhir Navbar -->
 
     <!-- Jumbotron -->
-    <section id="home" class="jumbotron text-center">
-      <object data="your-svg-image.svg" type="image/svg+xml">
-        <img src="img/gina.jpg" width="250" class="img-fluid rounded-circle shadow" style="border: 5px solid rgba(255, 255, 255, 0.07); border-radius: 50%" />
-      </object>
-      <h1 class="display-4 my-3" style="font-size: 12sp">Gina Ferlindawati</h1>
-      <p class="lead">Backend & Mobile Developer</p>
+    <section id="home" class="jumbotron">
+      <div class="container" style="margin-bottom: 4rem">
+        <div class="row">
+          <div class="col-sm-12 col-6 col-md-4 mx-auto ms-auto me-auto">
+            <object data="your-svg-image.svg" type="image/svg+xml">
+              <img src="img/giinaa.jpeg" width="350" class="img-fluid rounded-circle shadow" style="border: 5px solid rgba(255, 255, 255, 0.07); border-radius: 50%" />
+            </object>
+          </div>
+          <div class="col-sm-12 col-md-8 mx-auto">
+            <h3 class="display-4 my-3 fw-bold" style="margin-left: 4rem">Gina Ferlindawati</h3>
+            <h4 class="lead" style="margin-left: 4rem">Backend & Mobile Developer</h4>
+            <ul style="overflow: visible; margin-left: 4rem; margin-top: 20px">
+              <li style="list-style: none; cursor: pointer">
+                <i class="bi bi-envelope" style="display: inline-block; margin: 8px 0px"></i>
+                <a href="mailto:" style="color: white; display: inline-block; margin: 8px"> ginaferlindawati@gmail.com </a>
+              </li>
+              <li style="list-style: none; cursor: pointer">
+                <i class="bi bi-telephone" style="display: inline-block; margin: 8px 0px"></i>
+                <a href="callto:" style="color: white; display: inline-block; margin: 8px"> 082328884360</a>
+              </li>
+              <li style="list-style: none; cursor: pointer">
+                <i class="bi bi-house-door" style="display: inline-block; margin: 8px 0px"></i>
+                <address style="display: inline-block; margin: 8px">Pati, Jawa Tengah</address>
+              </li>
+            </ul>
+            <br />
+            <ul class="social-media" style="overflow: visible; margin-left: 4rem; margin-top: 15px">
+              <li>
+                <a href="https://facebook.com/ginaferlindawati.awa/" style="color: white">
+                  <i class="bi bi-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/g.ferlindawati/" style="color: white">
+                  <i class="bi bi-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/GinaFerl" style="color: white">
+                  <i class="bi bi-github"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/gief__" style="color: white">
+                  <i class="bi bi-twitter"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
